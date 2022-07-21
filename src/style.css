@@ -1,0 +1,108 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+.nav {
+    background-color: #F55A5a;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background-color: #F55A5a;
+    padding: 7px;
+}
+
+.navp {
+    font-weight: 500;
+    font-size: 16.46px;
+    line-height: 17.5px;
+    letter-spacing: -7.5%;
+    color: #FFF;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.card-img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.loc-icon {
+    width: 7px;
+    height: 9.55px;
+    padding-right: 5px;
+}
+
+.country {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283a;
+    padding-right: 6px;
+}
+
+.maps {
+    font-weight: 400;
+    font-size: 10.24px;
+    text-decoration-line: underline;
+    color: #9f9ca8;
+}
+
+.maps > a {
+    color: #9f9ca8;
+    text-decoration: none;
+}
+
+.name-img {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283a;
+    padding-bottom: 20px;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283a;
+    max-width: 350px;
+}
+
+.spn {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 7px;
+}
+
+section {
+    padding-left: 20px;
+}
+
+.s2 {
+    padding-top: 20px;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12.40px;
+    color: #2B283a;
+    padding-bottom: 9px;
+}
